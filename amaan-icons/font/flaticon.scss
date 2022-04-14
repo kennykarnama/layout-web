@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?d0d08fe7b84496c963df06fa3c848fb9") format("truetype"),
+url("./flaticon.woff?d0d08fe7b84496c963df06fa3c848fb9") format("woff"),
+url("./flaticon.woff2?d0d08fe7b84496c963df06fa3c848fb9") format("woff2"),
+url("./flaticon.eot?d0d08fe7b84496c963df06fa3c848fb9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d0d08fe7b84496c963df06fa3c848fb9#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "quotation": "\f101",
+    "ef495387f-4a27-808f-f6a1587881bb-noun-integration-3549png": "\f102",
+    "f934a4c5-e49eac-94c313c584ae-noun-delivery-4688png": "\f103",
+    "easy-control": "\f104",
+    "d4fb08ab4-435a-855b17828e3c2-noun-consultation-3148png": "\f105",
+    "65c7df91-3fa1-4b35d-1cf3cde4e2f7-noun-saving-3730png": "\f106",
+);
+
+.flaticon-quotation:before {
+    content: map-get($flaticon-map, "quotation");
+}
+.flaticon-ef495387f-4a27-808f-f6a1587881bb-noun-integration-3549png:before {
+    content: map-get($flaticon-map, "ef495387f-4a27-808f-f6a1587881bb-noun-integration-3549png");
+}
+.flaticon-f934a4c5-e49eac-94c313c584ae-noun-delivery-4688png:before {
+    content: map-get($flaticon-map, "f934a4c5-e49eac-94c313c584ae-noun-delivery-4688png");
+}
+.flaticon-easy-control:before {
+    content: map-get($flaticon-map, "easy-control");
+}
+.flaticon-d4fb08ab4-435a-855b17828e3c2-noun-consultation-3148png:before {
+    content: map-get($flaticon-map, "d4fb08ab4-435a-855b17828e3c2-noun-consultation-3148png");
+}
+.flaticon-65c7df91-3fa1-4b35d-1cf3cde4e2f7-noun-saving-3730png:before {
+    content: map-get($flaticon-map, "65c7df91-3fa1-4b35d-1cf3cde4e2f7-noun-saving-3730png");
+}
