@@ -66,21 +66,32 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <header id="header" class="header-section">
-        <div class="container">
-            <nav class="navbar">
-                <ul class="nav">
-                    <li><a data-scroll class="nav-link" href="index.html">Home <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li><a data-scroll class="nav-link" href="about_us.html">About</a></li>
-                    <li><a data-scroll class="nav-link" href="catalog.html">Product Catalog</a></li>
-                    <li><a data-scroll class="nav-link" href="index.html">FAQ</a></li>
-                </ul>
-                <a href="#" class="default-btn btn-primary float-right">Log in</a>
+   
+        <header id="header">
+            <nav class="navbar navbar-expand-sm navbar-light" style="box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%);">
+                <!-- Toggler/collapsibe Button -->
+                <div class="container-fluid">
+                    <button class="navbar-toggler ms-auto ms-sm-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                        aria-label="Toggle Navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
+                        <ul class="navbar-nav ms-2 align-items-end">
+                            <li><a data-scroll class="nav-link active" href="#home">Home <span
+                                        class="sr-only">(current)</span></a></li>
+                            <li><a data-scroll class="nav-link" href="about_us.html">About</a></li>
+                            <li><a data-scroll class="nav-link" href="catalog.html">Product Catalog</a></li>
+                            <li><a data-scroll class="nav-link" href="index.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
+                    <button class="default-btn btn-primary float-right"><span style="white-space:nowrap;">Log
+                            in</span></button>
+                </div>
             </nav>
-        </div>
-    </header><!-- Header Section-->
+        </header>
 
     <section id="home" class="hero-section bd-bottom bg-grey">
         <div class="container">
@@ -195,15 +206,15 @@
         </div>
     </section>
 
-    <section id="footer">
+    <section id="footer" class="pd-15" style="background-color: #e5eaf5;margin-left: 10%;margin-right: 10%;">
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col">
                     <h3>Company</h3>
                     <p>PT. Amaan Life Solutions</p>
                     <p>anadna@amaanlife.com</p>
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <h3>Store</h3>
                     <p>Product Catalog</p>
                     <p>Tokopedia Store</p>
