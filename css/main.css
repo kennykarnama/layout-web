@@ -999,3 +999,12 @@ ul.nav > li > a.active{
     padding-left: 1em !important;
     margin-left: 1em;
 }
+
+.bg-amaan {
+    background-color: #e5eaf5;
+}
+
+.mlr-10percent {
+    margin-left: 10%;
+    margin-right: 10%;
+}
