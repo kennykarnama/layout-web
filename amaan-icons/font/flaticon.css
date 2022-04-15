@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon";
-    src: url("./flaticon.ttf?d0d08fe7b84496c963df06fa3c848fb9") format("truetype"),
-url("./flaticon.woff?d0d08fe7b84496c963df06fa3c848fb9") format("woff"),
-url("./flaticon.woff2?d0d08fe7b84496c963df06fa3c848fb9") format("woff2"),
-url("./flaticon.eot?d0d08fe7b84496c963df06fa3c848fb9#iefix") format("embedded-opentype"),
-url("./flaticon.svg?d0d08fe7b84496c963df06fa3c848fb9#flaticon") format("svg");
+    src: url("./flaticon.ttf?f0bd8212fad03cfbb197ba430cf1850b") format("truetype"),
+url("./flaticon.woff?f0bd8212fad03cfbb197ba430cf1850b") format("woff"),
+url("./flaticon.woff2?f0bd8212fad03cfbb197ba430cf1850b") format("woff2"),
+url("./flaticon.eot?f0bd8212fad03cfbb197ba430cf1850b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?f0bd8212fad03cfbb197ba430cf1850b#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -35,4 +35,25 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 .flaticon-65c7df91-3fa1-4b35d-1cf3cde4e2f7-noun-saving-3730png:before {
     content: "\f106";
+}
+.flaticon-1080p-camera-2:before {
+    content: "\f107";
+}
+.flaticon-doorbell-alert-2:before {
+    content: "\f108";
+}
+.flaticon-memory-2:before {
+    content: "\f109";
+}
+.flaticon-motion-detection-2:before {
+    content: "\f10a";
+}
+.flaticon-voice-intercom-2:before {
+    content: "\f10b";
+}
+.flaticon-water-proof-2:before {
+    content: "\f10c";
+}
+.flaticon-weight-2:before {
+    content: "\f10d";
 }
