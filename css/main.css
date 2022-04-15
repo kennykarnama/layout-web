@@ -1276,3 +1276,27 @@ ul.nav>li>a.active {
     height: 32vw;
     object-fit: scale-down;
 }
+
+.img-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: scale-down;
+}
+
+.text {
+    display: inline-block;
+}
+
+.product-feature {
+    padding: 120px;
+}
+
+.product-feature-text {
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 0 0 10px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    overflow-wrap: break-word;
+}
