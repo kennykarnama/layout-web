@@ -88,10 +88,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
+            <!-- <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
                 <button class="default-btn btn-primary float-right"><span style="white-space:nowrap;">Log
                         in</span></button>
-            </div>
+            </div> -->
         </nav>
     </header>
 
@@ -124,11 +124,11 @@
                         </div>
                         <div class="pricing-footer">
                             <a href="https://www.tokopedia.com/amaanlife/smart-wifi-doorbell-cctv" target="_blank"
-                                class="default-btn btn-primary">Buy Now</a>
+                                class="default-btn btn-primary mb-40">Buy Now</a>
                         </div>
                         <div class="pricing-footer">
 
-                            <a href="doorbell.html" class="default-btn btn-primary"
+                            <a href="doorbell.html" class="default-btn btn-primary card-btn-learn_more"
                                 style="background-color: rgb(94, 93, 240);">Learn More</a>
                         </div>
                     </div>
@@ -148,7 +148,7 @@
                         </div>
                         <div class="pricing-footer">
 
-                            <a href="battery_powered_cctv.html" class="default-btn btn-primary"
+                            <a href="battery_powered_cctv.html" class="default-btn btn-primary card-btn-learn_more"
                                 style="background-color: rgb(94, 93, 240);">Learn More</a>
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                         </div>
                         <div class="pricing-footer">
 
-                            <a href="solar_panel_cctv.html" class="default-btn btn-primary"
+                            <a href="solar_panel_cctv.html" class="default-btn btn-primary card-btn-learn_more"
                                 style="background-color: rgb(94, 93, 240);">Learn More</a>
                         </div>
                     </div>
@@ -191,7 +191,7 @@
                         </div>
                         <div class="pricing-footer">
 
-                            <a href="portable_cctv.html" class="default-btn btn-primary"
+                            <a href="portable_cctv.html" class="default-btn btn-primary card-btn-learn_more"
                                 style="background-color: rgb(94, 93, 240);">Learn More</a>
                         </div>
                     </div>
@@ -204,17 +204,17 @@
             <div class="row">
                 <div class="col">
                     <h3>Company</h3>
-                    <p>PT. Amaan Life Solutions</p>
-                    <p>ananda@amaanlife.com</p>
+                    <p class="p-smaller">PT. Amaan Life Solutions</p>
+                    <p class="p-smaller">ananda@amaanlife.com</p>
                 </div>
                 <div class="col">
                     <h3>Store</h3>
-                    <p>
+                    <p class="p-smaller">
                         <a href="catalog.html" style="color: inherit;">
                             Product Catalog
                         </a>
                     </p>
-                    <p>
+                    <p class="p-smaller">
                         <a href="https://www.tokopedia.com/amaanlife" target="_blank" style="color: inherit;">
                             Tokopedia Store
                         </a>
@@ -233,27 +233,33 @@
     $(document).ready(function () {
         let cardRedirects = [{
                 card_id: "#card-doorbell",
-                redirect_url: "https://www.tokopedia.com/amaanlife/smart-wifi-doorbell-cctv"
+                redirect_url: "https://www.tokopedia.com/amaanlife/smart-wifi-doorbell-cctv",
+                exclude_class: "card-btn-learn_more"
             },
             {
                 card_id: "#card-portable_cctv",
                 redirect_url: "https://www.tokopedia.com/amaanlife/smart-wifi-portable-cctv",
+                exclude_class: "card-btn-learn_more"
             },
             {
                 card_id: "#card-battery_powered_cctv",
-                redirect_url: "https://www.tokopedia.com/amaanlife/smart-wifi-battery-powered-2mb-cctv"
+                redirect_url: "https://www.tokopedia.com/amaanlife/smart-wifi-battery-powered-2mb-cctv",
+                exclude_class: "card-btn-learn_more"
             },
             {
                 card_id: "#card-solar_panel_cctv",
-                redirect_url: "https://www.tokopedia.com/amaanlife/smart-wifi-solar-panel-cctv"
+                redirect_url: "https://www.tokopedia.com/amaanlife/smart-wifi-solar-panel-cctv",
+                exclude_class: "card-btn-learn_more"
             }
         ]
 
         // bind the events
         for (var i = 0; i < cardRedirects.length; i++) {
             let item = cardRedirects[i]
-            $(item.card_id).click(function(e){
-                window.open(item.redirect_url, "_blank")
+            $(item.card_id).click(function (e) {
+                if (!$(e.target).hasClass(item.exclude_class)) {
+                    window.open(item.redirect_url, "_blank")
+                }
             })
         }
 
