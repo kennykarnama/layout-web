@@ -14,7 +14,7 @@
 
     <title>Amaanlife</title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo_amaanlife.webp">
+    <link rel="icon" href="img/amaan_tab_icon_putih_128x128.png">
 
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -42,6 +42,8 @@
     <link rel="stylesheet" href="css/responsive.css">
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <!-- jQuery Lib -->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <style>
         .btn-primary {
             font-family: Raleway-SemiBold;
@@ -77,11 +79,12 @@
                 </button>
                 <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
                     <ul class="navbar-nav ms-2 align-items-end">
-                        <li><a data-scroll class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        <li><a data-scroll class="nav-link" href="index.html">Home <span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li><a data-scroll class="nav-link" href="about_us.html">About</a></li>
                         <li><a data-scroll class="nav-link active" href="catalog.html">Product Catalog</a></li>
-                        <li><a data-scroll class="nav-link" href="index.html">FAQ</a></li>
+                        <li><a data-scroll class="nav-link" href="index.html#faq">FAQ</a></li>
                     </ul>
                 </div>
             </div>
@@ -111,7 +114,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-6 sm-padding">
-                    <div class="my-card text-center">
+                    <div class="my-card text-center" id="card-doorbell">
                         <div style="text-align: center;">
                             <h2>Doorbell CCTV</h2>
                             <span>The new and secured way to your home</span>
@@ -120,7 +123,8 @@
                             <img class="card-img-top" src="img/doorbell.webp" />
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="default-btn btn-primary">Buy Now</a>
+                            <a href="https://www.tokopedia.com/amaanlife/smart-wifi-doorbell-cctv" target="_blank"
+                                class="default-btn btn-primary">Buy Now</a>
                         </div>
                         <div class="pricing-footer">
 
@@ -130,7 +134,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6 sm-padding">
-                    <div class="my-card text-center">
+                    <div class="my-card text-center" id="card-battery_powered_cctv">
                         <div style="text-align: center;">
                             <h2>Battery CCTV</h2>
                             <span>Battery-back your security system</span>
@@ -139,7 +143,8 @@
                             <img src="img/battery_cctv.webp" class="card-img-top" />
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="default-btn btn-primary">Buy Now</a>
+                            <a href="https://www.tokopedia.com/amaanlife/smart-wifi-battery-powered-2mb-cctv"
+                                target="_blank" class="default-btn btn-primary">Buy Now</a>
                         </div>
                         <div class="pricing-footer">
 
@@ -151,7 +156,7 @@
 
 
                 <div class="col-lg-6 col-sm-6 sm-padding" style="margin-top: 15px;">
-                    <div class="my-card text-center">
+                    <div class="my-card text-center" id="card-solar_panel_cctv">
                         <div style="text-align: center;">
                             <h2>Solar Panel CCTV</h2>
                             <span>Make your hom a greener home</span>
@@ -160,7 +165,8 @@
                             <img src="img/solar_panel.webp" class="card-img-top" />
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="default-btn btn-primary">Buy Now</a>
+                            <a href="https://www.tokopedia.com/amaanlife/smart-wifi-solar-panel-cctv" target="_blank"
+                                class="default-btn btn-primary">Buy Now</a>
                         </div>
                         <div class="pricing-footer">
 
@@ -171,7 +177,7 @@
                 </div>
 
                 <div class="col-lg-6 col-sm-6 sm-padding" style="margin-top: 15px;">
-                    <div class="my-card text-center">
+                    <div class="my-card text-center" id="card-portable_cctv">
                         <div style="text-align: center;">
                             <h2>Portable CCTV</h2>
                             <span>Monitor your home from anywhere</span>
@@ -180,7 +186,8 @@
                             <img src="img/portable_cctv.webp" class="card-img-top" />
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="default-btn btn-primary">Buy Now</a>
+                            <a href="https://www.tokopedia.com/amaanlife/smart-wifi-portable-cctv" target="_blank"
+                                class="default-btn btn-primary">Buy Now</a>
                         </div>
                         <div class="pricing-footer">
 
@@ -198,12 +205,21 @@
                 <div class="col">
                     <h3>Company</h3>
                     <p>PT. Amaan Life Solutions</p>
-                    <p>anadna@amaanlife.com</p>
+                    <p>ananda@amaanlife.com</p>
                 </div>
                 <div class="col">
                     <h3>Store</h3>
-                    <p>Product Catalog</p>
-                    <p>Tokopedia Store</p>
+                    <p>
+                        <a href="catalog.html" style="color: inherit;">
+                            Product Catalog
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.tokopedia.com/amaanlife" target="_blank" style="color: inherit;">
+                            Tokopedia Store
+                        </a>
+                    </p>
+
                 </div>
                 <div class="col-md-6">
                     <img src="img/amaan_footer.webp" alt="">
@@ -213,5 +229,36 @@
     </section><!-- ./Footer Section -->
 
 </body>
+<script>
+    $(document).ready(function () {
+        let cardRedirects = [{
+                card_id: "#card-doorbell",
+                redirect_url: "https://www.tokopedia.com/amaanlife/smart-wifi-doorbell-cctv"
+            },
+            {
+                card_id: "#card-portable_cctv",
+                redirect_url: "https://www.tokopedia.com/amaanlife/smart-wifi-portable-cctv",
+            },
+            {
+                card_id: "#card-battery_powered_cctv",
+                redirect_url: "https://www.tokopedia.com/amaanlife/smart-wifi-battery-powered-2mb-cctv"
+            },
+            {
+                card_id: "#card-solar_panel_cctv",
+                redirect_url: "https://www.tokopedia.com/amaanlife/smart-wifi-solar-panel-cctv"
+            }
+        ]
+
+        // bind the events
+        for (var i = 0; i < cardRedirects.length; i++) {
+            let item = cardRedirects[i]
+            $(item.card_id).click(function(e){
+                window.open(item.redirect_url, "_blank")
+            })
+        }
+
+        console.log(cardRedirects)
+    })
+</script>
 
 </html>
