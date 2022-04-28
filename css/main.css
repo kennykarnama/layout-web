@@ -117,8 +117,11 @@ a,
 span {}
 
 p {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: black !important;
 }
 
 a,
@@ -408,7 +411,7 @@ button {
     background-color: #24345e;
     font-family: "Inter" !important;
     color: #fff;
-    padding: 8px 9px;
+    padding: 20px 37px;
     box-shadow: rgb(36, 52, 94) 0px 10px 20px -10px;
 }
 
@@ -826,7 +829,7 @@ ul.nav>li>a.active {
 }
 
 .content-details p {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 /* ==========================================================================
@@ -1082,7 +1085,7 @@ ul.nav>li>a.active {
 }
 
 .pricing-footer {
-    padding: 0 30px 25px;
+    padding: 26px 30px 25px;
 }
 
 /* ==========================================================================
@@ -1243,7 +1246,7 @@ ul.nav>li>a.active {
 
 .my-card {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-    padding: 18px;
+    padding: 30px;
 }
 
 .btn-primary {
@@ -1299,4 +1302,12 @@ ul.nav>li>a.active {
     line-height: 1.1;
     letter-spacing: -0.04em;
     overflow-wrap: break-word;
+}
+
+.p-smaller {
+    font-size: 15px !important;
+}
+
+.p-smaller-2 {
+    font-size: 16px !important;
 }
