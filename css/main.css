@@ -52,7 +52,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'inter';
     -webkit-font-smoothing: antialiased;
     color: #333;
 }
@@ -663,7 +663,7 @@ ul.nav>li>a.active {
 .promo-wrap {}
 
 .promo-content {
-    padding: 30px 32px;
+    padding: 30px 29px;
     overflow: hidden;
 }
 
@@ -1251,7 +1251,7 @@ ul.nav>li>a.active {
 
 .btn-primary {
     font-family: Raleway-SemiBold;
-    font-size: 13px;
+    font-size: 19px;
     letter-spacing: 1px;
     line-height: 15px;
     border: 2px solid rgba(58, 133, 191, 0.75);
@@ -1291,7 +1291,7 @@ ul.nav>li>a.active {
 }
 
 .product-feature {
-    padding: 120px;
+    padding: 40px;
 }
 
 .product-feature-text {
