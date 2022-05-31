@@ -117,7 +117,7 @@ a,
 span {}
 
 p {
-    font-size: 18px;
+    font-size: 25px;
     margin-bottom: 15px;
     text-align: justify;
     text-justify: inter-word;
@@ -1311,3 +1311,9 @@ ul.nav>li>a.active {
 .p-smaller-2 {
     font-size: 16px !important;
 }
+
+.center {
+    margin: auto;
+    width: 100%;
+    padding-left: 350px;
+  }
