@@ -168,8 +168,16 @@ button {
     padding: 15px;
 }
 
+.pd-30 {
+    padding: 30px;
+}
+
 .padding {
     padding: 100px 0;
+}
+
+.padding-130 {
+    padding: 130px 0;
 }
 
 .no-padding {
@@ -1249,6 +1257,7 @@ ul.nav>li>a.active {
 .my-card {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
     padding: 30px;
+    padding-bottom: 40px;
 }
 
 .btn-primary {
@@ -1256,7 +1265,7 @@ ul.nav>li>a.active {
     font-size: 19px;
     letter-spacing: 1px;
     line-height: 15px;
-    border: 2px solid rgba(58, 133, 191, 0.75);
+    /* border: 2px solid rgba(58, 133, 191, 0.75); */
     border-radius: 40px;
     transition: all 0.3s ease 0s;
 }
