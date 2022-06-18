@@ -199,6 +199,7 @@
             $('#header__opening').css('margin-bottom', '6%');
             $('#header__opening__text1').addClass('text-center');
             $('#header__opening__p1').addClass('text-center');
+            $('#header__opening__button_contact_us').css('margin-right', '2%');
 
         } else {
             $('#navbar__logo__not_mobile').show();
