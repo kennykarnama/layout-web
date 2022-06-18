@@ -166,9 +166,15 @@
             dots: true,
          });
 
+         $('#footer').hide();
+         $('#footer__mobile').show();
+
     }else {
         $('#navbar__logo__not_mobile').show();
         $('#navbar__logo__mobile').hide();
+
+        $('#footer').show();
+         $('#footer__mobile').hide();
     }
 
 

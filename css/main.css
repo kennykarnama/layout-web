@@ -1328,3 +1328,9 @@ ul.nav>li>a.active {
     width: 100%;
     padding-left: 350px;
   }
+
+  .span-mobile {
+    font-size: 2vw !important;
+    font-weight: bold;
+    color: black;
+  }
