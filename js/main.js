@@ -33,7 +33,7 @@
         prependTo: '.header-section .navbar',
         label: '',
         allowParentLinks: true
-    });          
+    });       
 
 /*=========================================================================
     Product Carousel
@@ -134,5 +134,41 @@
             $('#scroll-to-top').fadeOut();
         }
     });
+
+/**
+ * Mobile responsive conditional script
+ */
+
+ $(function() {
+    console.log("isMobile dari main.js", isMobile.any)
+
+    if (isMobile.any) {
+
+        $('#navbar__logo__not_mobile').hide();
+        $('#navbar__logo__mobile').show();
+
+        $('.btn-primary').each(function (item) {
+            $(this).css('font-size', 'inherit');
+        })
+
+        $('#features__cutting_edge_technology > .container > .my-card').children().each(function (child){
+            if ($(this).hasClass('default-btn btn-primary')) {
+                $(this).css('padding', '5%');
+            }
+         })
+
+         $('#features__cutting_edge_technology > .container > .my-card > .my-card__sub__content').children().each(function(child){
+            if ($(this).hasClass('default-btn btn-primary')) {
+                $(this).css('padding', '5%');
+            }
+         })
+
+    }else {
+        $('#navbar__logo__not_mobile').show();
+        $('#navbar__logo__mobile').hide();
+    }
+
+
+});
 
 })(jQuery);
