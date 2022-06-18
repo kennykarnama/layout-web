@@ -163,6 +163,7 @@
                     $(this).css('padding', '5%');
                 }
             })
+            $('#section__what_our_products_offer__promo_content').addClass('owl-carousel', 'owl-theme');
             $('.owl-carousel').owlCarousel({
                 dots: true,
             });
