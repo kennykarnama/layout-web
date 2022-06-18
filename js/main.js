@@ -194,6 +194,11 @@
                 });
             }
 
+            $('#content-details__smarter_security_for_everyone').css('margin-top', '0px');
+            $('#header__opening').css('margin-bottom', '6%');
+            $('#header__opening__text1').addClass('text-center');
+            $('#header__opening__p1').addClass('text-center');
+
         } else {
             $('#navbar__logo__not_mobile').show();
             $('#navbar__logo__mobile').hide();
