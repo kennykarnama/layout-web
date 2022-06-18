@@ -162,6 +162,9 @@
                 $(this).css('padding', '5%');
             }
          })
+         $('.owl-carousel').owlCarousel({
+            dots: true,
+         });
 
     }else {
         $('#navbar__logo__not_mobile').show();
