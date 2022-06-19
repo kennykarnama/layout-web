@@ -67,6 +67,17 @@
             $('#about_us__mission').hide();
             $('#about_us__background__mobile').show();
             $('#about_us__background').hide();
+            $('#detail_product__doorbell__mobile').show();
+            $('#detail_product__doorbell').hide();
+
+            $('#detail_product__portable_cctv__mobile').show();
+            $('#detail_product__portable_cctv').hide();
+
+            $('#detail_product__solar_panel__mobile').show();
+            $('#detail_product__solar_panel').hide();
+
+            $('#detail_product__battery_powered_cctv__mobile').show();
+            $('#detail_product__battery_powered_cctv').hide();
 
         } else {
             $('#navbar__logo__not_mobile').show();
@@ -82,6 +93,17 @@
             $('#about_us__mission').show();
             $('#about_us__background__mobile').hide();
             $('#about_us__background').show();
+            $('#detail_product__doorbell__mobile').hide();
+            $('#detail_product__doorbell').show();
+
+            $('#detail_product__portable_cctv__mobile').hide();
+            $('#detail_product__portable_cctv').show();
+
+            $('#detail_product__solar_panel__mobile').hide();
+            $('#detail_product__solar_panel').show();
+
+            $('#detail_product__battery_powered_cctv__mobile').hide();
+            $('#detail_product__battery_powered_cctv').show();
         }
 
 
