@@ -62,6 +62,7 @@
             $('#header__opening__p1').addClass('text-center');
             $('#header__opening__button_contact_us').css('margin-right', '2%');
             $('#navbar__item__faq').attr('href', 'index.html#faq__mobile');
+            $('#catalog__doorbell__img').css('padding-top', '2%');
 
         } else {
             $('#navbar__logo__not_mobile').show();
