@@ -61,6 +61,7 @@
             $('#header__opening__text1').addClass('text-center');
             $('#header__opening__p1').addClass('text-center');
             $('#header__opening__button_contact_us').css('margin-right', '2%');
+            $('#navbar__item__faq').attr('href', 'index.html#faq__mobile');
 
         } else {
             $('#navbar__logo__not_mobile').show();
@@ -71,6 +72,7 @@
 
             $('#faq').show();
             $('#faq__mobile').hide();
+            $('#navbar__item__faq').attr('href', 'index.html#faq');
         }
 
 
