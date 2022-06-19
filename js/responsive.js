@@ -63,6 +63,10 @@
             $('#header__opening__button_contact_us').css('margin-right', '2%');
             $('#navbar__item__faq').attr('href', 'index.html#faq__mobile');
             $('#catalog__doorbell__img').css('padding-top', '2%');
+            $('#about_us__mission__mobile').show();
+            $('#about_us__mission').hide();
+            $('#about_us__background__mobile').show();
+            $('#about_us__background').hide();
 
         } else {
             $('#navbar__logo__not_mobile').show();
@@ -74,6 +78,10 @@
             $('#faq').show();
             $('#faq__mobile').hide();
             $('#navbar__item__faq').attr('href', 'index.html#faq');
+            $('#about_us__mission__mobile').hide();
+            $('#about_us__mission').show();
+            $('#about_us__background__mobile').hide();
+            $('#about_us__background').show();
         }
 
 
