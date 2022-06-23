@@ -26,9 +26,12 @@
                     $(this).css('padding', '5%');
                 }
             })
-            $('#section__what_our_products_offer__promo_content').addClass('owl-carousel', 'owl-theme');
+            $('#section__what_our_products_offer__promo_content__mobile').addClass('owl-carousel', 'owl-theme');
             $('.owl-carousel').owlCarousel({
                 dots: true,
+                items: 1,
+                stagePadding: 50,
+                margin: 20,
             });
 
             $('#footer').hide();
@@ -86,6 +89,8 @@
             $('#header__opening__button_group').css('margin-top', '6%');
             $('#header__opening__button_contact_us').css('padding', '9px 10px');
             $('#header__opening__button_buy_now').css('padding', '9px 10px');
+            $('#promo-section__what_our_products_offer__mobile').show();
+            $('#promo-section__what_our_products_offer').hide();
 
 
         } else {
@@ -113,6 +118,9 @@
 
             $('#detail_product__battery_powered_cctv__mobile').hide();
             $('#detail_product__battery_powered_cctv').show();
+
+            $('#promo-section__what_our_products_offer__mobile').hide();
+            $('#promo-section__what_our_products_offer').show();
         }
 
 

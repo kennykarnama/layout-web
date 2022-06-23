@@ -280,6 +280,10 @@ button {
     font-size: 24px;
 }
 
+.fz-24-important {
+    font-size: 24px !important;
+}
+
 .fz-22 {
     font-size: 22px;
 }
@@ -691,7 +695,31 @@ ul.nav>li>a.active {
     margin-top: 35px;
 }
 
+
 .promo-content p {
+    margin-bottom: 0;
+}
+
+/**
+**/
+
+.promo-content-mobile {
+    /* padding: 30px 29px; */
+    overflow: hidden;
+}
+
+.promo-content-mobile i {
+    font-size: 27vw;
+    /* margin-bottom: 15px; */
+    color: black;
+}
+
+.promo-content-mobile h3 {
+    font-size: 4vw;
+}
+
+
+.promo-content-mobile p {
     margin-bottom: 0;
 }
 
@@ -1262,6 +1290,13 @@ ul.nav>li>a.active {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
     padding: 30px;
     padding-bottom: 40px;
+}
+
+.my-card-grey {
+    padding-top: 30%;
+    padding-bottom: 30%;
+    background-color: #FAF9F9;
+    border-radius: 8%;
 }
 
 .btn-primary {
