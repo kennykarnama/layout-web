@@ -83,6 +83,10 @@
             $('#content-section__safety_and_comfort_your_home__img_section').css('margin-right', '20%');
             $('#content-section__safety_and_comfort_your_home__img').attr('src', 'img/mobile__battery_cctv.png');
             $('#content-section__safety_and_comfort_your_home__img').css('max-width', 'fit-content');
+            $('#header__opening__button_group').css('margin-top', '6%');
+            $('#header__opening__button_contact_us').css('padding', '9px 10px');
+            $('#header__opening__button_buy_now').css('padding', '9px 10px');
+
 
         } else {
             $('#navbar__logo__not_mobile').show();
