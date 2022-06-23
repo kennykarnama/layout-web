@@ -7,6 +7,8 @@
         if (isMobile.any) {
 
             $('#navbar__logo__not_mobile').hide();
+            $('#navbar__logo__mobile > img').css('margin-right', '10%');
+            $('#navbar__logo__mobile > img').css('max-width', '30%');
             $('#navbar__logo__mobile').show();
 
             $('.btn-primary').each(function (item) {
