@@ -111,6 +111,8 @@
             $('#feature-section__dont-know-where-to-start').hide();
             $('#product-catalogue__mobile').show();
             $('#product-catalogue').hide();
+            $('#about_us__mission').hide();
+            $('#about_us__mission__mobile').show();
         } else {
             $('#navbar__logo__not_mobile').show();
             $('#navbar__logo__mobile').hide();
@@ -150,6 +152,8 @@
             $('#feature-section__dont-know-where-to-start').show();
             $('#product-catalogue__mobile').hide();
             $('#product-catalogue').show();
+            $('#about_us__mission').show();
+            $('#about_us__mission__mobile').hide();
         }
 
 
