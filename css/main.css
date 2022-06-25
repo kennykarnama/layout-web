@@ -196,6 +196,26 @@ button {
     padding: 20px;
 }
 
+.padding-top-15-percnt {
+    padding-top: 15%;
+}
+
+.padding-bottom-15-percnt {
+    padding-bottom: 15%;
+}
+
+.padding-left-5-percnt {
+    padding-left: 5%;
+}
+
+.padding-right-5-percnt {
+    padding-right: 5%;
+}
+
+.padding-top-12-percnt {
+    padding-top: 12%;
+}
+
 .bg-white {
     background-color: #fff;
 }
@@ -433,10 +453,24 @@ button {
     box-shadow: rgb(36, 52, 94) 0px 10px 20px -10px;
 }
 
+.default-btn-pd-5-10-pcnt {
+    background-color: #24345e;
+    font-family: 'Helvetica', "Inter" !important;
+    color: #fff;
+    padding: 5% 10%;
+    box-shadow: rgb(36, 52, 94) 0px 10px 20px -10px;
+}
+
 .default-btn:hover {
     opacity: 0.8;
     color: #fff;
 }
+
+.default-btn-pd-5-10-pcnt:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+
 
 /*Section Heading*/
 .section-heading {}
@@ -1295,6 +1329,11 @@ ul.nav>li>a.active {
 .my-card-grey {
     padding-top: 30%;
     padding-bottom: 30%;
+    background-color: #FAF9F9;
+    border-radius: 8%;
+}
+
+.my-card-grey-plain {
     background-color: #FAF9F9;
     border-radius: 8%;
 }

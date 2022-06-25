@@ -15,15 +15,17 @@
                 $(this).css('font-size', 'inherit');
             })
 
-            $('#features__cutting_edge_technology > .container > .my-card').children().each(function (child) {
+            $('#features__cutting_edge_technology__mobile > .container > .my-card').children().each(function (child) {
                 if ($(this).hasClass('default-btn btn-primary')) {
                     $(this).css('padding', '5%');
+                    $(this).css('margin-right', '0%');
                 }
             })
 
-            $('#features__cutting_edge_technology > .container > .my-card > .my-card__sub__content').children().each(function (child) {
+            $('#features__cutting_edge_technology__mobile > .container > .my-card > .my-card__sub__content').children().each(function (child) {
                 if ($(this).hasClass('default-btn btn-primary')) {
                     $(this).css('padding', '5%');
+                    $(this).css('margin-right', '0%');
                 }
             })
             $('#section__what_our_products_offer__promo_content__mobile').addClass('owl-carousel', 'owl-theme');
@@ -91,8 +93,14 @@
             $('#header__opening__button_buy_now').css('padding', '9px 10px');
             $('#promo-section__what_our_products_offer__mobile').show();
             $('#promo-section__what_our_products_offer').hide();
+            $('#features__cutting_edge_technology').hide();
+            $('#features__cutting_edge_technology__mobile').show();
 
-
+            $('#features__cutting_edge_technology__mobile__slider').addClass('owl-carousel__features_cutting_edge', 'owl-theme');
+            $('.owl-carousel__features_cutting_edge').owlCarousel({
+                dots: true,
+                items: 1,
+            });
         } else {
             $('#navbar__logo__not_mobile').show();
             $('#navbar__logo__mobile').hide();
@@ -121,6 +129,9 @@
 
             $('#promo-section__what_our_products_offer__mobile').hide();
             $('#promo-section__what_our_products_offer').show();
+
+            $('#features__cutting_edge_technology__mobile').hide();
+            $('#features__cutting_edge_technology').show();
         }
 
 
