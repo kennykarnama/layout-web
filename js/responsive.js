@@ -12,7 +12,9 @@
             $('#navbar__logo__mobile').show();
 
             $('.btn-primary').each(function (item) {
-                $(this).css('font-size', 'inherit');
+                if (!$(this).hasClass('custom-font-size')) {
+                    $(this).css('font-size', 'inherit');
+                }
             })
 
             $('#features__cutting_edge_technology__mobile > .container > .my-card').children().each(function (child) {
@@ -101,6 +103,12 @@
                 dots: true,
                 items: 1,
             });
+            $('#feature-section__feel-secure-wherever-you-are').hide();
+            $('#feature-section__feel-secure-wherever-you-are__mobile').show();
+            $('#feature-section__smarter-security-for-everyone__mobile').show();
+            $('#feature-section__smarter-security-for-everyone').hide();
+            $('#feature-section__dont-know-where-to-start__mobile').show();
+            $('#feature-section__dont-know-where-to-start').hide();
         } else {
             $('#navbar__logo__not_mobile').show();
             $('#navbar__logo__mobile').hide();
@@ -132,6 +140,12 @@
 
             $('#features__cutting_edge_technology__mobile').hide();
             $('#features__cutting_edge_technology').show();
+            $('#feature-section__feel-secure-wherever-you-are').show();
+            $('#feature-section__feel-secure-wherever-you-are__mobile').hide();
+            $('#feature-section__smarter-security-for-everyone__mobile').hide();
+            $('#feature-section__smarter-security-for-everyone').show();
+            $('#feature-section__dont-know-where-to-start__mobile').hide();
+            $('#feature-section__dont-know-where-to-start').show();
         }
 
 

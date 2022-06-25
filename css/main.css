@@ -216,6 +216,14 @@ button {
     padding-top: 12%;
 }
 
+.padding-top-5-percnt {
+    padding-top: 5%;
+}
+
+.padding-10-percent {
+    padding: 10% !important;
+}
+
 .bg-white {
     background-color: #fff;
 }
@@ -458,6 +466,14 @@ button {
     font-family: 'Helvetica', "Inter" !important;
     color: #fff;
     padding: 5% 10%;
+    box-shadow: rgb(36, 52, 94) 0px 10px 20px -10px;
+}
+
+.default-btn-pd-5-5-pcnt {
+    background-color: #24345e;
+    font-family: 'Helvetica', "Inter" !important;
+    color: #fff;
+    padding: 5% 5%;
     box-shadow: rgb(36, 52, 94) 0px 10px 20px -10px;
 }
 
