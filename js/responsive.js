@@ -71,7 +71,7 @@
             $('#header__opening__p1').addClass('text-center');
             $('#header__opening__button_contact_us').css('margin-right', '2%');
             $('#navbar__item__faq').attr('href', 'index.html#faq__mobile');
-            $('#catalog__doorbell__img').css('padding-top', '2%');
+            // $('#catalog__doorbell__img').css('padding-top', '2%');
             $('#about_us__mission__mobile').show();
             $('#about_us__mission').hide();
             $('#about_us__background__mobile').show();
@@ -109,6 +109,8 @@
             $('#feature-section__smarter-security-for-everyone').hide();
             $('#feature-section__dont-know-where-to-start__mobile').show();
             $('#feature-section__dont-know-where-to-start').hide();
+            $('#product-catalogue__mobile').show();
+            $('#product-catalogue').hide();
         } else {
             $('#navbar__logo__not_mobile').show();
             $('#navbar__logo__mobile').hide();
@@ -146,6 +148,8 @@
             $('#feature-section__smarter-security-for-everyone').show();
             $('#feature-section__dont-know-where-to-start__mobile').hide();
             $('#feature-section__dont-know-where-to-start').show();
+            $('#product-catalogue__mobile').hide();
+            $('#product-catalogue').show();
         }
 
 

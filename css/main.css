@@ -220,6 +220,11 @@ button {
     padding-top: 5%;
 }
 
+.padding-bottom-5-percnt {
+    padding-bottom: 5%;
+}
+
+
 .padding-10-percent {
     padding: 10% !important;
 }
@@ -234,6 +239,10 @@ button {
 
 .bg-dark {
     background-color: #232323;
+}
+
+.bg-grey-black {
+    background-color: #FAF9F9;
 }
 
 .bd-top {
@@ -474,6 +483,14 @@ button {
     font-family: 'Helvetica', "Inter" !important;
     color: #fff;
     padding: 5% 5%;
+    box-shadow: rgb(36, 52, 94) 0px 10px 20px -10px;
+}
+
+.default-btn-pd-3-5-pcnt {
+    background-color: #24345e;
+    font-family: 'Helvetica', "Inter" !important;
+    color: #fff;
+    padding: 3% 5%;
     box-shadow: rgb(36, 52, 94) 0px 10px 20px -10px;
 }
 
