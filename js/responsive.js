@@ -154,6 +154,10 @@
             $('#product-catalogue').show();
             $('#about_us__mission').show();
             $('#about_us__mission__mobile').hide();
+            $('#header__opening__p1').addClass('text-real-black-important');
+            $('#content-section__safety_and_comfort_your_home__img').attr('src', 'img/desktop__section__header.png');
+            $('#content-section__safety_and_comfort_your_home__img').css('margin-top', '-25%');
+            $('#content-section__safety_and_comfort_your_home__img').css('margin-left', '-58%');
         }
 
 

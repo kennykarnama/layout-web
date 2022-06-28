@@ -220,6 +220,10 @@ button {
     padding-top: 5%;
 }
 
+.padding-top-2-percnt {
+    padding-top: 2%;
+}
+
 .padding-bottom-5-percnt {
     padding-bottom: 5%;
 }
@@ -228,6 +232,15 @@ button {
 .padding-10-percent {
     padding: 10% !important;
 }
+
+.padding-left-18-percnt {
+    padding-left: 18%;
+}
+
+.padding-right-18-percnt {
+    padding-right: 18%;
+}
+
 
 .bg-white {
     background-color: #fff;
@@ -255,6 +268,10 @@ button {
 
 .mb-10 {
     margin-bottom: 10px;
+}
+
+.mb-30-percent {
+    margin-bottom: 30%;
 }
 
 .mb-15 {
@@ -343,6 +360,10 @@ button {
 
 .text-white {
     color: #ffffff;
+}
+
+.text-real-black-important {
+    color: #000000 !important;
 }
 
 .align-left {
@@ -769,6 +790,24 @@ ul.nav>li>a.active {
 
 
 .promo-content p {
+    margin-bottom: 0;
+}
+
+.promo-content-desktop {
+    overflow: hidden;
+}
+
+.promo-content-desktop i {
+    font-size: 13vh;
+    color: black;
+}
+
+.promo-content-desktop h3 {
+    margin-top: 10%;
+}
+
+
+.promo-content-desktop p {
     margin-bottom: 0;
 }
 
@@ -1399,6 +1438,10 @@ ul.nav>li>a.active {
 .mlr-10percent {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.mr-2percent {
+    margin-right: 2%;
 }
 
 .card-img-top {
