@@ -212,6 +212,14 @@ button {
     padding-right: 5%;
 }
 
+.padding-left-10-percnt-imp {
+    padding-left: 10% !important;
+}
+
+.padding-right-10-percnt-imp {
+    padding-right: 10% !important;
+}
+
 .padding-top-12-percnt {
     padding-top: 12%;
 }
@@ -226,6 +234,10 @@ button {
 
 .padding-bottom-5-percnt {
     padding-bottom: 5%;
+}
+
+.padding-bottom-2-percnt {
+    padding-bottom: 2%;
 }
 
 
@@ -247,6 +259,10 @@ button {
 
 .margin-top-30-percnt {
     margin-top: 30%;
+}
+
+.margin-top-2-percnt {
+    margin-top: 2%;
 }
 
 .margin-bottom-15-percnt {
@@ -495,6 +511,13 @@ button {
     }
 }
 
+.max-width-77-percent {
+    max-width: 77%;
+}
+
+.max-width-107-percent {
+    max-width: 107%;
+}
 /* Button Style */
 
 .btn-primary-amaan {
@@ -1480,6 +1503,10 @@ ul.nav>li>a.active {
 
 .mr-2percent {
     margin-right: 2%;
+}
+
+.mr-1percent {
+    margin-right: 1%;
 }
 
 .card-img-top {
