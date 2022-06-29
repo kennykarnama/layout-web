@@ -241,6 +241,21 @@ button {
     padding-right: 18%;
 }
 
+.margin-top-15-percnt {
+    margin-top: 15%;
+}
+
+.margin-top-30-percnt {
+    margin-top: 30%;
+}
+
+.margin-bottom-15-percnt {
+    margin-bottom: 15%;
+}
+
+.margin-left-neg-10-percnt {
+    margin-left: -10%;
+}
 
 .bg-white {
     background-color: #fff;
@@ -352,6 +367,10 @@ button {
 
 .fz-16 {
     font-size: 16px;
+}
+
+.fz-inherit {
+    font-size: inherit;
 }
 
 .text-black {
@@ -982,7 +1001,7 @@ ul.nav>li>a.active {
 }
 
 .content-details p {
-    margin-bottom: 35px;
+    font-size: 20px !important;
 }
 
 /* ==========================================================================
