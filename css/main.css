@@ -496,6 +496,17 @@ button {
 }
 
 /* Button Style */
+
+.btn-primary-amaan {
+    font-family: 'Helvetica', 'Inter';
+    font-size: 2vh;
+    letter-spacing: 1px;
+    line-height: 15px;
+    /* border: 2px solid rgba(58, 133, 191, 0.75); */
+    border-radius: 40px;
+    transition: all 0.3s ease 0s;
+}
+
 .btn-group {}
 
 .btn-group a {
@@ -536,6 +547,14 @@ button {
     font-family: 'Helvetica', "Inter" !important;
     color: #fff;
     padding: 3% 5%;
+    box-shadow: rgb(36, 52, 94) 0px 10px 20px -10px;
+}
+
+.default-btn-pd-2-3-pcnt {
+    background-color: #24345e;
+    font-family: 'Helvetica', "Inter" !important;
+    color: #fff;
+    padding: 2% 3%;
     box-shadow: rgb(36, 52, 94) 0px 10px 20px -10px;
 }
 
