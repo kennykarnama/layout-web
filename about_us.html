@@ -7,12 +7,32 @@
 <!--<![endif]-->
 
 <head>
+
+      <!-- Google Tag Manager -->
+      <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KCJ7G48');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Amaanlife">
     <meta name="author" content="amaan-dev">
 
-    <title>Amaanlife</title>
+    <title>About us</title>
 
     <link rel="icon" href="img/amaan_tab_icon_putih_128x128.png">
 
@@ -46,9 +66,20 @@
      <script src="js/vendor/jquery-1.12.4.min.js"></script>
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ismobilejs@1/dist/isMobile.min.js"></script>
 </head>
 
 <body>
+  
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCJ7G48" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
     <header id="header">
         <nav class="navbar navbar-expand-sm navbar-light" style="box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%);">
             <!-- Toggler/collapsibe Button -->
@@ -60,18 +91,18 @@
                 </button>
                 <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
                     <ul class="navbar-nav ms-2 align-items-end">
-                        <li><a data-scroll class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
+                        <li><a data-scroll class="nav-link" href="index.html">Home <span
+                                    class="sr-only">(current)</span></a></li>
                         <li><a data-scroll class="nav-link active" href="about_us.html">About</a></li>
                         <li><a data-scroll class="nav-link" href="catalog.html">Product Catalog</a></li>
-                        <li><a data-scroll class="nav-link" href="index.html#faq">FAQ</a></li>
+                        <li><a data-scroll class="nav-link" href="index.html#faq" id="navbar__item__faq">FAQ</a></li>
                     </ul>
                 </div>
+                <div class="col text-center" id="navbar__logo__mobile">
+                    <img src="img/logo_amaanlife.webp" alt="img" style="max-width: 25%;">
+                </div>
             </div>
-            <!-- <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
-                <button class="default-btn btn-primary float-right"><span style="white-space:nowrap;">Log
-                        in</span></button>
-            </div> -->
+            </div>
         </nav>
     </header>
 
@@ -80,12 +111,12 @@
             <div class="row justify-content-center">
                 <div class="col-md-12">
                     <div>
-                        <h1 style="font-family: 'Inter'; font-weight: 900;text-align: center;">
+                        <h1 style="font-weight: 900;text-align: center;">
                             Building <span style="color: #24345e;">
                                 Comfort
                             </span>
                         </h1>
-                        <h1 style="font-family: 'Inter'; font-weight: 900;text-align: center;"> <span
+                        <h1 style="font-weight: 900;text-align: center;"> <span
                                 style="color: #24345e;">
                                 Security
                             </span>with Amaan
@@ -97,69 +128,202 @@
         </div>
     </section>
 
-    <section class="content-section padding my-card mlr-10percent" style="margin-top:40px">
-        <div class="container" style="padding: 40px;">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-9" style="padding-right: 50px;">
-                    <div>
-                        <div class="section-heading text-center mb-40">
-                            <h1>Mission</h1>
-                        </div>
-                        <p class="p-smaller-2">
-                            Amaan is a smart home company with a mission to improve the safety and living standards of
-                            Indonesian homes through integrated smart home solutions. We believe that having complete
-                            autonomy over the security and comfort of your home can be done from a single tap of a
-                            screen and be available for everyone.
-                        </p>
-                        <p class="p-smaller-2">
-                            We are able to deliver this promise by providing cutting edge smart home and security
-                            appliances that are customized to the needs of our customers' home. In addition, we provide
-                            free consultation, fast quotation, in depth risk assessment and options for installation
-                            services for a hassle free shopping experience.
-                        </p>
+    <section class="" style="margin-top:40px" id="about_us__mission">
+        <div class="container">
+            <div class="text-center padding-bottom-2-percnt">
+                <h2>Our Mission</h2>
+            </div>
+            <div class="row padding-bottom-2-percnt">
+                <div class="col padding-top-2-percnt mr-1percent my-card-grey-plain ">
+                    <div class="text-center margin-bottom-15-percnt">
+                        <img src="img/desktop__mission__safety.png"/>
+                    </div>
+                    <div class="text-center padding-bottom-5-percnt">
+                        <span class="bold">Safety and living</span>
+                    </div>
+                    <div class="text-center">
+                        <span>Improve the safety and living standards of Indonesian homes through integrated smart home solutions.</span>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <img src="img/mission.webp" alt="" style="max-width: 120%;">
+                <div class="col padding-top-2-percnt mr-1percent my-card-grey-plain ">
+                    <div class="text-center margin-bottom-15-percnt">
+                        <img src="img/desktop__mission__one_tap.png"/>
+                    </div>
+                    <div class="text-center padding-bottom-5-percnt">
+                        <span class="bold">One tap</span>
+                    </div>
+                    <div class="text-center">
+                        <span>Complete autonomy over the security and comfort of your home from single tap, for everyone.</span>
+                    </div>
                 </div>
-            </div>
+                <div class="col padding-top-2-percnt mr-1percent my-card-grey-plain ">
+                    <div class="text-center margin-bottom-15-percnt">
+                        <img src="img/desktop__mission__customize.png"/>
+                    </div>
+                    <div class="text-center padding-bottom-5-percnt">
+                        <span class="bold">Customization</span>
+                    </div>
+                    <div class="text-center">
+                        <span>Provide cutting edge smart home and security appliances that are customizeable to your home.</span>
+                    </div>
+                </div>
+                <div class="col padding-top-2-percnt mr-1percent my-card-grey-plain ">
+                    <div class="text-center margin-bottom-15-percnt">
+                        <img src="img/desktop__mission__stress_free.png"/>
+                    </div>
+                    <div class="text-center padding-bottom-5-percnt">
+                        <span class="bold">Stress-free</span>
+                    </div>
+                    <div class="text-center padding-bottom-5-percnt">
+                        <span>Free consultation, fast quotation, in depth risk assessment and options for installation services for a hassle-free shopping experience.</span>
+                    </div>
+                </div>
+            </div>           
         </div>
     </section>
 
-    <section class="content-section padding my-card mlr-10percent" style="margin-top: 50px;margin-bottom: 50px;">
-        <div class="container" style="padding: 40px;">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-4">
-                    <img src="img/background.webp" alt="">
+    <section class="" style="margin-top:40px" id="about_us__mission__mobile">
+        <div class="container">
+            <div class="text-center padding-bottom-5-percnt">
+                <h2>Our Mission</h2>
+            </div>
+            <div class="container my-card-grey-plain padding-bottom-5-percnt">
+                <div class="">
+                    <div class="text-center">
+                        <img src="img/mobile__mission__safety.png"/>
+                    </div>
+                    <div class="text-center">
+                        <span class="bold">Safety and living</span>
+                    </div>
+                    <div class="text-center">
+                        <span>Improve the safety and living standards of Indonesian homes through integrated smart home solutions.</span>
+                    </div>
                 </div>
+                <div class="padding-top-5-percnt">
+                    <div class="text-center">
+                        <img src="img/mobile__mission__one_tap.png"/>
+                    </div>
+                    <div class="text-center">
+                        <span class="bold">One tap</span>
+                    </div>
+                    <div class="text-center">
+                        <span>Complete autonomy over the security and comfort of your home from single tap, for everyone.</span>
+                    </div>
+                </div>
+                <div class="padding-top-5-percnt">
+                    <div class="text-center">
+                        <img src="img/mobile__mission__custom.png"/>
+                    </div>
+                    <div class="text-center">
+                        <span class="bold">Customization</span>
+                    </div>
+                    <div class="text-center">
+                        <span>Provide cutting edge smart home and security appliances that are customizeable to your home.</span>
+                    </div>
+                </div>
+                <div class="padding-top-5-percnt">
+                    <div class="text-center">
+                        <img src="img/mobile__mission__stress-free.png"/>
+                    </div>
+                    <div class="text-center">
+                        <span class="bold">Stress-free</span>
+                    </div>
+                    <div class="text-center">
+                        <span>Free consultation, fast quotation, in depth risk assessment and options for installation services for a hassle-free shopping experience.</span>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
 
-                <div class="col-md-8" style="padding-left: 50px;">
-                    <div>
-                        <div class="section-heading text-center mb-40">
-                            <h1>Background</h1>
-                        </div>
-                        <p class="p-smaller-2">
-                            Our company started from a small online store selling security appliances through
+    <section class="padding-bottom-5-percnt margin-top-15-percnt" id="about_us__background">
+        <div class="container">
+            <div class="text-center">
+                <h2>Our Background</h2>
+            </div>
+            <div class="container my-card-grey-plain padding-left-10-percnt-imp padding-right-10-percnt-imp padding-top-2-percnt padding-bottom-2-percnt">
+                <div class="">
+                    <div class="text-center">
+                        <span> Our company started from a small online store selling security appliances through
                             marketplaces in Indonesia. From this experience, we saw a great demand for affordable yet
                             reliable security devices that provided a sense of security within the household. However,
                             we saw an even greater demand for a more customizable solution as more and more customers
                             came to us not asking about the products that we were selling, but recommendations on what
-                            they should buy in order to protect their home from potential security breaches.
-                        </p>
-                        <p class="p-smaller-2">
+                            they should buy in order to protect their home from potential security breaches.</span>
+                    </div>
+                </div>
+                <div class="padding-top-2-percnt">
+                    <div class="text-center">
+                        <span>
                             It was from these incidental findings that we discovered the average customer to be less
                             knowledgeable on security and smart home appliances. They don’t know what devices they need
                             and even if they do, they would only buy security appliances with conventional technology
                             and difficult installation methods.
-                        </p>
-                        <p class="p-smaller-2">
+                        </span>
+                    </div>
+                </div>
+                <div class="padding-top-2-percnt">
+                    <div class="text-center">
+                        <span>
                             This is where we believe Amaan can provide value to our customers. By helping them choose
                             the right smart products for their household, only then will they truly experience living in
                             a smart, secure and comfortable home.
-                        </p>
+                        </span>
+                    </div>
+                </div>
+                <div class="padding-top-5-percnt">
+                    <div class="text-center">
+                        <img src="img/mobile__background__home.png"/>
                     </div>
                 </div>
             </div>
+           
+        </div>
+    </section>
+
+    <section class="padding-bottom-5-percnt" style="margin-top:40px" id="about_us__background__mobile">
+        <div class="container">
+            <div class="text-center padding-bottom-5-percnt">
+                <h2>Our Background</h2>
+            </div>
+            <div class="container my-card-grey-plain padding-10-percent">
+                <div class="">
+                    <div class="text-center">
+                        <span> Our company started from a small online store selling security appliances through
+                            marketplaces in Indonesia. From this experience, we saw a great demand for affordable yet
+                            reliable security devices that provided a sense of security within the household. However,
+                            we saw an even greater demand for a more customizable solution as more and more customers
+                            came to us not asking about the products that we were selling, but recommendations on what
+                            they should buy in order to protect their home from potential security breaches.</span>
+                    </div>
+                </div>
+                <div class="padding-top-5-percnt">
+                    <div class="text-center">
+                        <span>
+                            It was from these incidental findings that we discovered the average customer to be less
+                            knowledgeable on security and smart home appliances. They don’t know what devices they need
+                            and even if they do, they would only buy security appliances with conventional technology
+                            and difficult installation methods.
+                        </span>
+                    </div>
+                </div>
+                <div class="padding-top-5-percnt">
+                    <div class="text-center">
+                        <span>
+                            This is where we believe Amaan can provide value to our customers. By helping them choose
+                            the right smart products for their household, only then will they truly experience living in
+                            a smart, secure and comfortable home.
+                        </span>
+                    </div>
+                </div>
+                <div class="padding-top-12-percnt">
+                    <div class="text-center">
+                        <img src="img/mobile__background__home.png"/>
+                    </div>
+                </div>
+            </div>
+           
         </div>
     </section>
 
@@ -191,9 +355,43 @@
             </div>
         </div>
     </section><!-- ./Footer Section -->
+    <section id="footer__mobile" class="pd-15" style="background-color: #e5eaf5;">
+        <div class="container" style="margin-bottom: 100px;">
+            <div class="row">
+                <div class="col">
+                    <h3 style="font-weight: bold;">Company</h3>
+                    <span class="span-mobile">PT. Amaan Life Solutions</span>
+                    <span class="span-mobile">
+                        ananda@amaanlife.com
+                    </span>
+                </div>
+                <div class="col">
+                    <h3 style="font-weight: bold;">Store</h3>
+                    <span class="span-mobile">
+                        <a href="catalog.html" style="color: inherit;">
+                            Product Catalog
+                        </a>
+                    </span>
+                    <span class="span-mobile">
+                        <a href="https://www.tokopedia.com/amaanlife" target="_blank" style="color: inherit;">
+                            Tokopedia Store
+                        </a>
+                    </span>
+
+                </div>
+                <div class="col">
+                    <img src="img/amaan_footer_cropped.png" alt="" style="padding-top: 7px;max-width: 129%;">
+                </div>
+            </div>
+        </div>
+    </section><!-- ./Footer Section -->
     <!-- jQuery Lib -->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- OWL-Carousel JS -->
+    <script src="js/vendor/owl.carousel.min.js"></script>
+     <!-- Main JS -->
+     <script src="js/responsive.js"></script>
 
 </body>
