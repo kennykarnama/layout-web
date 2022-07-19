@@ -104,6 +104,12 @@ img {
     max-width: 100%;
 }
 
+.img-super {
+    border: none;
+    outline: none;
+    max-width: fit-content !important;
+}
+
 ul {
     display: block;
     list-style: none;
