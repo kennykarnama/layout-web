@@ -34,8 +34,9 @@
             $('.owl-carousel').owlCarousel({
                 dots: true,
                 items: 1,
-                stagePadding: 50,
+                stagePadding: 80,
                 margin: 20,
+                loop: true,
             });
 
             $('#footer').hide();
@@ -96,6 +97,7 @@
             $('#header__opening__button_buy_now').css('padding', '9px 15px');
             $('#header__opening__button_buy_now').css('font-size', '1.5vh');
             $('#promo-section__what_our_products_offer__mobile').show();
+            $('#promo-section__what_our_products_offer__mobile').addClass('margin-bottom-60-percnt');
             $('#promo-section__what_our_products_offer').hide();
             $('#features__cutting_edge_technology').hide();
             $('#features__cutting_edge_technology__mobile').show();
