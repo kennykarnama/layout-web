@@ -287,6 +287,10 @@ button {
     margin-top: 10%;
 }
 
+.margin-top-neg-20-percnt {
+    margin-top: -20%;
+}
+
 .margin-bottom-15-percnt {
     margin-bottom: 15%;
 }
