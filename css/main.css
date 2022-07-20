@@ -568,6 +568,19 @@ button {
 .max-width-107-percent {
     max-width: 107%;
 }
+
+.max-width-50-percent {
+    max-width: 50%;
+}
+.max-width-43-percent {
+    max-width: 43%;
+}
+.max-width-62-percent {
+    max-width: 62%;
+}
+.max-width-84-percent {
+    max-width: 84%;
+}
 /* Button Style */
 
 .btn-primary-amaan {
