@@ -283,8 +283,16 @@ button {
     margin-top: 2%;
 }
 
+.margin-top-10-percnt {
+    margin-top: 10%;
+}
+
 .margin-bottom-15-percnt {
     margin-bottom: 15%;
+}
+
+.margin-bottom-30-percnt {
+    margin-bottom: 30%;
 }
 
 .margin-left-neg-10-percnt {
