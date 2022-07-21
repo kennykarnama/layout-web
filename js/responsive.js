@@ -34,8 +34,9 @@
             $('.owl-carousel').owlCarousel({
                 dots: true,
                 items: 1,
-                stagePadding: 50,
+                stagePadding: 80,
                 margin: 20,
+                loop: true,
             });
 
             $('#footer').hide();
@@ -46,7 +47,7 @@
 
             $('#faq__mobile').css('background-color', '#FAF9F9');
 
-            var acc = document.getElementsByClassName("accordion");
+            var acc = document.getElementsByClassName("accordion-mobile");
             var i;
 
             for (i = 0; i < acc.length; i++) {
@@ -87,13 +88,16 @@
 
             $('#detail_product__battery_powered_cctv__mobile').show();
             $('#detail_product__battery_powered_cctv').hide();
-            $('#content-section__safety_and_comfort_your_home__img_section').css('margin-right', '20%');
-            $('#content-section__safety_and_comfort_your_home__img').attr('src', 'img/mobile__battery_cctv.png');
+            $('#content-section__safety_and_comfort_your_home__img').attr('src', 'img/index__section_improve_assets/asset1.png');
+            $('#content-section__safety_and_comfort_your_home__img').css('margin-left', '-7%');
             $('#content-section__safety_and_comfort_your_home__img').css('max-width', 'fit-content');
             $('#header__opening__button_group').css('margin-top', '6%');
-            $('#header__opening__button_contact_us').css('padding', '9px 10px');
-            $('#header__opening__button_buy_now').css('padding', '9px 10px');
+            $('#header__opening__button_contact_us').css('padding', '9px 15px');
+            $('#header__opening__button_contact_us').css('font-size', '1.5vh');
+            $('#header__opening__button_buy_now').css('padding', '9px 15px');
+            $('#header__opening__button_buy_now').css('font-size', '1.5vh');
             $('#promo-section__what_our_products_offer__mobile').show();
+            $('#promo-section__what_our_products_offer__mobile').addClass('margin-bottom-70-percnt');
             $('#promo-section__what_our_products_offer').hide();
             $('#features__cutting_edge_technology').hide();
             $('#features__cutting_edge_technology__mobile').show();
@@ -113,6 +117,8 @@
             $('#product-catalogue').hide();
             $('#about_us__mission').hide();
             $('#about_us__mission__mobile').show();
+            $('#catalogue_heading__mobile').show();
+            $('#catalogue_heading').hide();
         } else {
             $('#navbar__logo__not_mobile').show();
             $('#navbar__logo__mobile').hide();
@@ -177,6 +183,9 @@
                     }
                 });
             }
+
+            $('#catalogue_heading__mobile').hide();
+            $('#catalogue_heading').show();
         }
 
 
