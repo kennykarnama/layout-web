@@ -97,7 +97,7 @@
             $('#header__opening__button_buy_now').css('padding', '9px 15px');
             $('#header__opening__button_buy_now').css('font-size', '1.5vh');
             $('#promo-section__what_our_products_offer__mobile').show();
-            $('#promo-section__what_our_products_offer__mobile').addClass('margin-bottom-70-percnt');
+            $('#promo-section__what_our_products_offer__mobile').addClass('margin-bottom-80-percnt');
             $('#promo-section__what_our_products_offer').hide();
             $('#features__cutting_edge_technology').hide();
             $('#features__cutting_edge_technology__mobile').show();
@@ -119,6 +119,8 @@
             $('#about_us__mission__mobile').show();
             $('#catalogue_heading__mobile').show();
             $('#catalogue_heading').hide();
+            $('#about_us__heading__mobile').show();
+            $('#about_us__heading').hide();
         } else {
             $('#navbar__logo__not_mobile').show();
             $('#navbar__logo__mobile').hide();
@@ -186,6 +188,8 @@
 
             $('#catalogue_heading__mobile').hide();
             $('#catalogue_heading').show();
+            $('#about_us__heading__mobile').hide();
+            $('#about_us__heading').show();
         }
 
 
