@@ -117,6 +117,8 @@
             $('#product-catalogue').hide();
             $('#about_us__mission').hide();
             $('#about_us__mission__mobile').show();
+            $('#catalogue_heading__mobile').show();
+            $('#catalogue_heading').hide();
         } else {
             $('#navbar__logo__not_mobile').show();
             $('#navbar__logo__mobile').hide();
@@ -181,6 +183,9 @@
                     }
                 });
             }
+
+            $('#catalogue_heading__mobile').hide();
+            $('#catalogue_heading').show();
         }
 
 

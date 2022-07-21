@@ -254,6 +254,18 @@ button {
     padding-top: 5%;
 }
 
+.padding-top-10-percnt {
+    padding-top: 10%;
+}
+
+.padding-bottom-5-percnt {
+    padding-bottom: 5%;
+}
+
+.padding-bottom-10-percnt {
+    padding-bottom: 10%;
+}
+
 .padding-top-7-percnt {
     padding-top: 7%;
 }
@@ -309,6 +321,10 @@ button {
 
 .margin-top-neg-20-percnt {
     margin-top: -20%;
+}
+
+.margin-top-neg-5-percnt {
+    margin-top: -5%;
 }
 
 .margin-bottom-15-percnt {
