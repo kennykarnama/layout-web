@@ -47,7 +47,7 @@
 
             $('#faq__mobile').css('background-color', '#FAF9F9');
 
-            var acc = document.getElementsByClassName("accordion");
+            var acc = document.getElementsByClassName("accordion-mobile");
             var i;
 
             for (i = 0; i < acc.length; i++) {
