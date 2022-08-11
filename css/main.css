@@ -827,11 +827,11 @@ ul.nav>li>a.active {
     opacity: 1;
 }
 
-*/ .mainmenu .default-btn {
-    padding: 10px 30px;
-    display: inline-block;
-    margin-left: 20px;
-}
+/**! .mainmenu .default-btn {*/
+/*    padding: 10px 30px;*/
+/*    display: inline-block;*/
+/*    margin-left: 20px;*/
+/*}*/
 
 .menu-btn {
     margin-left: 10px;
