@@ -319,4 +319,14 @@ function onSaved(e) {
     if (!window.quotationData) {
         alert("QuotationData is empty")
     }
+    let quotationData = window.quotationData
+    let user = {
+        'name': $('#quotation_name').val(),
+        'city': $('#quotation_city').val(),
+        'email': $('#quotation_email').val(),
+        'phoneNumber': $('#quotation_phoneNumber').val(),
+        'companyName': $('#quotation_companyName').val(),
+    }
+    let finalPayload = _.merge({}, quotationData, user)
+    console.log(finalPayload)
 }
